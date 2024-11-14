@@ -1,3 +1,5 @@
+# MLB Pitch Mix Prediction Analysis
+
 Predictive analysis project forecasting pitch mix distributions (fastballs, breaking balls, off-speed pitches) for MLB batters in the 2024 season, using historical data from 2021-2023.
 
 Technical Stack
