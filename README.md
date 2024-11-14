@@ -1,30 +1,22 @@
-# Catcher-Framing-Analysis
-
-A comprehensive machine learning approach to quantify catcher framing ability in baseball using pitch tracking data. The model isolates a catcher's contribution to ball/strike calls and measures their impact through called strikes added or subtracted.
-
-Features
-
-Pitch-by-pitch tracking data analysis
-Location-based strike zone mapping
-Game situation variable integration
-Player performance isolation
-Year-over-year predictive analytics
+Predictive analysis project forecasting pitch mix distributions (fastballs, breaking balls, off-speed pitches) for MLB batters in the 2024 season, using historical data from 2021-2023.
 
 Technical Stack
 
 Language: Python
-Key Libraries:
+Model: Random Forest Regressor
+Key Features:
 
-Pandas (Data manipulation)
-NumPy (Numerical operations)
-Scikit-learn (Machine Learning)
+PLATE_X (37.29% importance)
+PLATE_Z (19.69% importance)
+LAUNCH_SPEED (9.74% importance)
+BALLS (6.70% importance)
+OUTS_WHEN_UP (6.24% importance)
 
 
-Model: Logistic Regression
 
-Key Metrics
+Data Processing
 
-Called Strikes Added
-Opportunities vs Performance analysis
-Year-over-Year stability measurements
-Strike zone heat mapping
+Pitch type categorization (FB, BB, OS)
+Feature engineering
+Categorical variable encoding
+80/20 train-test split
